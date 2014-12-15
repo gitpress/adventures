@@ -7,7 +7,7 @@ There is however, a bit of an issue. Even more so than web browsers, the product
 Generally speaking, you have to code your emails like the late 1990s and use tables to structure everything. The three main rules of HTML emails are:
 1. No modern CSS or HTML. Tables everywhere
 2. You must put things inline. No external styles or scripts
-3. Every client is radically different. A button may render on one version, but not another at all
+3. Every client is radically different. A button may render on one version, but not render on another at all
 
 ## Setting the scene
 
@@ -21,6 +21,28 @@ We'll want something that looks modern but reflects the personality of the book 
 
 We'll want to track how many people opened the email or clicked the links so we can track the success of the email and track that against how many new downloads.
 
+Therefore our key features are:
+* highly focused email that talks only about the book release
+* Ensures the reader knows how to easily download/get the book
+* Includes opening and tracking functionality so we get a picture of how successful the email was
+
 ## Wireframing the email
 
 Having some notion of what the email is trying to do (inform people about the download) and what success looks like (lots of clicks and downloads) it is worthwhile sketching out what we want our email to look like.
+
+First I have put pen to paper and scribbled out something that looks decent.
+
+INCLUDE_IMG_HERE
+
+It follows a pretty traditional pattern for emails and gives prominence to the main goals of the email (apart from the tracking but we'll get to that in a bit). 
+
+> Along your journey to becoming a web developer and/or building products for the web you'll need to get some sense for design. I keep a google presentation of website elements and components that I like A great place to start by looking at pretty things is [Dribbble](http://www.dribbble.com). [Pinterest](htttp://www.pinterest.com) is another good resource for images of people's designs. As ever, give reference to anything that inspired you on your journey.
+
+## Scaffolding the html
+
+#### Step one - 
+
+#### Step two -
+
+## Ensuring we track everything
+
