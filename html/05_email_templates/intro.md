@@ -5,6 +5,7 @@ In this chapter we will go through building a common product that uses HTML; an 
 There is however, a bit of an issue. Even more so than web browsers, the products that render our emails are a massive mess. Not only can you NOT include external spreadsheets or styles outside of the HTML elements, many older but very popular email clients break normal, modern HTML. There is also an added issue in that version by version, products like Outlook will render your emails differently. Same code, completely different layouts because one product was made in 2005, and the other 2007.
 
 Generally speaking, you have to code your emails like the late 1990s and use tables to structure everything. The three main rules of HTML emails are:
+
 1. No modern CSS or HTML. Tables everywhere
 2. You must put things inline. No external styles or scripts
 3. Every client is radically different. A button may render on one version, but not render on another at all
@@ -36,7 +37,7 @@ INCLUDE_IMG_HERE
 
 It follows a pretty traditional pattern for emails and gives prominence to the main goals of the email (apart from the tracking but we'll get to that in a bit). 
 
-> Along your journey to becoming a web developer and/or building products for the web you'll need to get some sense for design. I keep a google presentation of website elements and components that I like A great place to start by looking at pretty things is [Dribbble](http://www.dribbble.com). [Pinterest](htttp://www.pinterest.com) is another good resource for images of people's designs. As ever, give reference to anything that inspired you on your journey.
+> Along your journey to becoming a web developer and/or building products for the web you'll need to get some sense for design. I keep a google presentation of website elements and components that I like A great place to start by looking at pretty things is [Dribbble](http://www.dribbble.com). [Pinterest](http://www.pinterest.com) is another good resource for images of people's designs. As ever, give reference to anything that inspired you on your journey.
 
 ## Scaffolding the html
 
