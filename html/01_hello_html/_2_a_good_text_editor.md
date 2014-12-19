@@ -2,7 +2,9 @@ A good text editor is essential for any web developer. At the moment there are a
 
 ## Text Editors
 
-Sublime Text
+#### Sublime Text
+
+This is one of the most popular text editors around. You can buy it for around $80 but they also offer an unlimited trial version which should be good for a web beginner.
 
 Atom.io
 
@@ -38,6 +40,8 @@ Nitrous
 
 
 
-In this book I will generally use either Sublime Text which can be evaluated for free (an unlimited evaluation) or the browser-based development environment of [Codio](http://www.codio.com) which leverages the "integrated development environment" of Cloud 9 IDE. This is essentially a text editor designed to come with extra syntax highlighting (basically colour coding your code) and the ability for other additional features to be bolted on top.
+In this book I will generally use Sublime Text which as I mentioned previously, can be evaluated for free (an unlimited evaluation). The browser-based development environment of [Codio](http://www.codio.com) which leverages the "integrated development environment" of Ice IDE is also a good bet. 
+
+An IDE is essentially a text editor designed to come with extra syntax highlighting (basically colour coding your code) and the ability for other additional features to be bolted on top.
 
 I recommend using Codio if you are on a windows machine
