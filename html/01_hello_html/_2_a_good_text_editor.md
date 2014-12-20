@@ -68,8 +68,8 @@ Like Codio, [Cloud 9][https://c9.io/] is an in-browser development environment w
 
 [Nitrous](https://www.nitrous.io/) is another option for in browser development environment. The free tier is limited to one project at a time so it is less flexible that Codio or Cloud 9.
 
-### But what do you use?
+### But what should you use?
 
 For HTML I would recommend Sublime Text (it also works well for Windows, Mac and Linux) and the full version can be evaluated for free (an unlimited evaluation of the paid version). The browser-based development environment of [Codio](http://www.codio.com) is also a good bet. I use it for work and have few complaints.
 
-I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux. It also mixes the ability to create things like you would on Windows without abandoning the command line or Linux way of doing things.
+I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux.
