@@ -12,14 +12,19 @@ TextMate
 
 #### NotePad++
 
-[NotePad++]() is a classic Windows text editor that has been around a good while.
+[NotePad++](http://notepad-plus-plus.org/) is a classic Windows text editor that has been around a good while. It is lightweight and fast and a great fit for Windows machines. If you ever find your PC running slow using an IDE or editor, NotePad++ is a great choice.
+
+> Why is it faster? The reason is that NotePad++ is written in "native" code. Native code is essentially the language an Operating System (OS) or computer is written in. Native code speaks the language of the computer and therefore the computer can execute programs more efficently. If you take a programming language that doesn't compile/create Native language, it needs to translate itself or have a program do that for it. This extra process, however small, makes something slower (or require more CPU to process thereby potentially running slower if you are also using other programs at the same time)
 
 #### Brackets.io
 
 Brackets is an under development text editor designed and developed by Adobe. It is apparently very popular and you can find out more on the [Bracket website](http://brackets.io/).
 
+If you are a designer or have some experience with Adobe products it may be a good fit.
 
 #### Caret (for ChromeOS)
+
+[Caret]() is  the best choice for local file editing on a Chromebook. I have a Chromebook which I use to either edit through the browser or with Caret. It is essentially a Sublime Text alterntaive for Chromebooks. Well worth a downloa.
 
 ## IDEs (Integrated Development Environment)
 
