@@ -1,8 +1,8 @@
 # The right tools
 
-One the most important tools to use is a good web browser. I personally use Google Chrome but Firefox is another great alternative. I would also recommend you install IE11 if possible too.
+One of the most important tools for a web developer is a good web browser. I personally use Google Chrome but Firefox is another great alternative. I would also recommend you install IE11 if possible too.
 
-A professional developer needs to test their site in as many browsers as possible so collecting browsers and machines is very important.
+A professional developer needs to test their website in as many browsers as possible so having them available is the best situation so, install all you can.
 
 Another key tool is a good text editor. As your HTML basically text, a text editor is essential for any web developer. At the moment there are quite a few choices and ultimately it can come down to personal preferance. Here are a few:
 
