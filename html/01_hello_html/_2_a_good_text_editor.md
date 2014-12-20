@@ -1,6 +1,10 @@
 # The right tools
 
-A good text editor is essential for any web developer. At the moment there are a fair few good choices and ultimately it can come down to personal preferance. Here are a few:
+One the most important tools to use is a good web browser. I personally use Google Chrome but Firefox is another great alternative. I would also recommend you install IE11 if possible too.
+
+A professional developer needs to text their site in as many browsers as possible so collecting browsers and machines is very important.
+
+Another key tool is a good text editor. As your HTML basically text, a text editor is essential for any web developer. At the moment there are a fair few good choices and ultimately it can come down to personal preferance. Here are a few:
 
 ### Text Editors
 
@@ -50,18 +54,18 @@ If you are a designer or have some experience with Adobe products it may be a go
 
 Of all of the in-browser IDEs, [Codio](https://codio.com/) is probably the most reliable, flexible and easy to use. It is the product I use the most. I am in fact writing this very book using it. The free tier is extremely powerful and they have just redesigned the platform to ensure it is easier to use and easier to set up common platforms.
 
-If I am not using Sublime Text I am using Codio.
+Peraonlly, If I am not using Sublime Text on my Linux Laptpo, I am normally using Codio.
 
 #### Cloud 9
 
 Like Codio, [Cloud 9][https://c9.io/] is an in-browser development environment with a good free tier. As with Codio, there is some additional or alternative steps you'll have to jump over to get databases etc. installed. However, when it comes to HTML there is nothing extra to do.
 
-Nitrous
+#### Nitrous
 
+[Nitrous](https://www.nitrous.io/) is another option for in browser development environment. The free tier is limited to one project at a time so it is less flexible that Codio or Cloud 9.
 
+### But what do you use?
 
-In this book I will generally use Sublime Text which as I mentioned previously, can be evaluated for free (an unlimited evaluation). The browser-based development environment of [Codio](http://www.codio.com) which leverages the "integrated development environment" of Ice IDE is also a good bet. 
+For HTML I would recommend Sublime Text (it also works well for Windows, Mac and Linux) and the full version can be evaluated for free (an unlimited evaluation of the paid version). The browser-based development environment of [Codio](http://www.codio.com) is also a good bet. I use it for work and have few complaints.
 
-An IDE is essentially a text editor designed to come with extra syntax highlighting (basically colour coding your code) and the ability for other additional features to be bolted on top.
-
-I recommend using Codio if you are on a windows machine
+I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux.
