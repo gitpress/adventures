@@ -2,15 +2,15 @@
 
 One the most important tools to use is a good web browser. I personally use Google Chrome but Firefox is another great alternative. I would also recommend you install IE11 if possible too.
 
-A professional developer needs to text their site in as many browsers as possible so collecting browsers and machines is very important.
+A professional developer needs to test their site in as many browsers as possible so collecting browsers and machines is very important.
 
-Another key tool is a good text editor. As your HTML basically text, a text editor is essential for any web developer. At the moment there are a fair few good choices and ultimately it can come down to personal preferance. Here are a few:
+Another key tool is a good text editor. As your HTML basically text, a text editor is essential for any web developer. At the moment there are quite a few choices and ultimately it can come down to personal preferance. Here are a few:
 
 ### Text Editors
 
 #### Sublime Text
 
-This is one of the most popular text editors around. You can buy it for around $80 but they also offer an unlimited trial version which should be good for a web beginner. [Sublime Text](http://www.sublimetext.com/) is a great product but development appears to have slowed recently but it remains of the best, if not **the** best text editor around.
+This is one of the most popular text editors around. You can buy it for around $80 but they also offer an unlimited trial version which should be good for a web beginner. [Sublime Text](http://www.sublimetext.com/) is a great product but development appears to have slowed recently but it remains one of the best, if not **the** best text editor around.
 
 #### Atom.io
 
@@ -36,7 +36,11 @@ If you are a designer or have some experience with Adobe products it may be a go
 
 #### Caret (for ChromeOS)
 
-[Caret]() is  the best choice for local file editing on a Chromebook. I have a Chromebook which I use to either edit through the browser or with Caret. It is essentially a Sublime Text alterntaive for Chromebooks. Well worth a download.
+[Caret](https://chrome.google.com/webstore/detail/caret/fljalecfjciodhpcledpamjachpmelml?hl=en) is  the best choice for local file editing on a Chromebook. I have a Chromebook which I use to either edit through the browser or with Caret. It is essentially a Sublime Text alterntaive for Chromebooks. Well worth a download.
+
+#### Vi, Vim or Emacs
+
+All three of Vi, Vim or Emacs are developer-focused tools that let you edit text and process commands without touching a mouse. They are all very complicated and require some learning to use. Once you master one you'll be seriously productive but for a learner I think they are likely a bit advanced.
 
 ### IDEs (Integrated Development Environment)
 
@@ -68,4 +72,4 @@ Like Codio, [Cloud 9][https://c9.io/] is an in-browser development environment w
 
 For HTML I would recommend Sublime Text (it also works well for Windows, Mac and Linux) and the full version can be evaluated for free (an unlimited evaluation of the paid version). The browser-based development environment of [Codio](http://www.codio.com) is also a good bet. I use it for work and have few complaints.
 
-I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux.
+I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux. It also mixes the ability to create things like you would on Windows without abandoning the command line or Linux way of doing things.
