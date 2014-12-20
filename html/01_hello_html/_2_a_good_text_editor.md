@@ -19,18 +19,16 @@ TextMate
 Brackets is an under development text editor designed and developed by Adobe. It is apparently very popular and you can find out more on the [Bracket website](http://brackets.io/).
 
 
-Caret (for ChromeOS)
+#### Caret (for ChromeOS)
 
-## IDEs
-
-#### Ice IDE
+## IDEs (Integrated Development Environment)
 
 #### Aptana Studio
 
-[Aptana Studio](http://www.aptana.com/products/studio3.html) is a free IDE that also has tools for Ruby/Rails development
-
+[Aptana Studio](http://www.aptana.com/products/studio3.html) is a free IDE that also has tools for Ruby/Rails development. If you are wondering what an IDE is, it is essentially a super-charged text editor that may come with extra tooling/functionality specific to building certain applications or using certain programming languages. For HTML it is a bit overkill.
 
 ## In-browser IDEs
+
 
 Codio
 
