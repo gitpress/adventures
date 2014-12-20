@@ -1,14 +1,22 @@
+# The right tools
+
 A good text editor is essential for any web developer. At the moment there are a fair few good choices and ultimately it can come down to personal preferance. Here are a few:
 
-## Text Editors
+### Text Editors
 
 #### Sublime Text
 
-This is one of the most popular text editors around. You can buy it for around $80 but they also offer an unlimited trial version which should be good for a web beginner.
+This is one of the most popular text editors around. You can buy it for around $80 but they also offer an unlimited trial version which should be good for a web beginner. [Sublime Text](http://www.sublimetext.com/) is a great product but development appears to have slowed recently but it remains of the best, if not **the** best text editor around.
 
-Atom.io
+#### Atom.io
 
-TextMate
+[Atom.io](https://atom.io/) is one of the newer text editors around. It is now open source and free. It is developed by [GitHub](https://github.com/) a collaborative platform that developers use to host and share code. It is still early in its development but offers a lot of potential. It is similar to Sublime Text.
+
+> If GitHub and other terms feel a bit intimidating, don't worry. Every learner feels the same. So many terms and technologies. Keep on trucking. You'll soon get a handle on them!
+
+#### TextMate
+
+[TextMate](http://macromates.com/) is a popular text editor for the Mac platform.
 
 #### NotePad++
 
@@ -24,20 +32,29 @@ If you are a designer or have some experience with Adobe products it may be a go
 
 #### Caret (for ChromeOS)
 
-[Caret]() is  the best choice for local file editing on a Chromebook. I have a Chromebook which I use to either edit through the browser or with Caret. It is essentially a Sublime Text alterntaive for Chromebooks. Well worth a downloa.
+[Caret]() is  the best choice for local file editing on a Chromebook. I have a Chromebook which I use to either edit through the browser or with Caret. It is essentially a Sublime Text alterntaive for Chromebooks. Well worth a download.
 
-## IDEs (Integrated Development Environment)
+### IDEs (Integrated Development Environment)
 
 #### Aptana Studio
 
-[Aptana Studio](http://www.aptana.com/products/studio3.html) is a free IDE that also has tools for Ruby/Rails development. If you are wondering what an IDE is, it is essentially a super-charged text editor that may come with extra tooling/functionality specific to building certain applications or using certain programming languages. For HTML it is a bit overkill.
+[Aptana Studio](http://www.aptana.com/products/studio3.html) is a free IDE that also has tools for Ruby/Rails development. If you are wondering what an IDE is, it is essentially a super-charged text editor that may come with extra tooling/functionality specific to building certain applications or using certain programming languages. For HTML it is a bit overkill but if you have aspirations for developing serious applications getting used to an IDE isn't a bad idea.
 
-## In-browser IDEs
+#### Visual Studio
 
+[Visual Studio Community](http://www.visualstudio.com/en-gb/products/visual-studio-community-vs) is another very powerful product that is a bit overkill just for HTML but has some great tools and if you use Windows is a great option.
 
-Codio
+### In-browser IDEs
 
-Cloud 9
+#### Codio
+
+Of all of the in-browser IDEs, [Codio](https://codio.com/) is probably the most reliable, flexible and easy to use. It is the product I use the most. I am in fact writing this very book using it. The free tier is extremely powerful and they have just redesigned the platform to ensure it is easier to use and easier to set up common platforms.
+
+If I am not using Sublime Text I am using Codio.
+
+#### Cloud 9
+
+Like Codio, [Cloud 9][https://c9.io/] is an in-browser development environment with a good free tier. As with Codio, there is some additional or alternative steps you'll have to jump over to get databases etc. installed. However, when it comes to HTML there is nothing extra to do.
 
 Nitrous
 
