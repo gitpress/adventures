@@ -22,6 +22,20 @@ HTML provides the structure similar to that we find in a book, but on a webpage 
 
 So, when you write HTML you are building the structure into which information, data, is injected. Your structure is vitally important to the readability and usefulness of your document to a reader. Your HTML is vitally important to ensure your document creates a structure that is consumed in the way you intend it to be consumed.
 
+```html
+<article>
+  <header>A letter in aid of the advancement of Cat Herding 
+     - Archibald Whiskers III</header>
+  <p>It is in my estimation that laptops are an emergent 
+     threat to Cat Herding everywhere. It is not possible, nor 
+     likely, that Cat Herding can commmence as it is did the 
+     days of my Great Uncle* when just any common person may be 
+     able to attract Cats to screens and laptop keyboards 
+     without effort. It is therefore my opinion that...</p>
+  <footer>*important note</footer>
+</article>
+```
+
 HTML is the common structure of the web. It is a way of telling browsers how to build something, what to put in certain containers and what containers belong in certain silos.
 
-HTML doesn't do it alone. We have CSS (Cascading Style Sheets) which provides the styling and JavaScript which adds a layer of interactivity and polish to use too. This book won't really focus on those two technologies (forthcoming books will though!) but it will give you the ability to start leveraging them soon enough.
+HTML doesn't do it alone. We have CSS (Cascading Style Sheets) which provides the styling and JavaScript which adds a layer of interactivity and polish to use too. This book won't really directly focus on those two technologies (forthcoming books will though!) but it will give you the ability to start leveraging them soon enough.

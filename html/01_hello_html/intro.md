@@ -7,14 +7,3 @@ Welcome to the book proper. In this chapter we will ensure you have everything r
 * how to write basic HTML files
 * A good text editor to use
 * What a web directory can look like
-
-## How web pages are accesssed
-
-## Choosing a good text editor
-
-## A glance at a web server
-
-
-
-## How to write a basic HTML file
-
