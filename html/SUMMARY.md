@@ -2,6 +2,6 @@
 * [Hello HTML](01_hello_html/intro.md)
 * [HTML Elements](02_common_elements/intro.md)
 * [Using Popular Services](03_using_services/intro.md)
-* [Responisve Design and Bootstrap](04_RWD/intro.md)
+* [CSS & Responsive Design](04_RWD/intro.md)
 * [Creating HTML Emails](05_email_templates/intro.md)
 * [Challenges & Further Resources](06_resources/intro.md)
