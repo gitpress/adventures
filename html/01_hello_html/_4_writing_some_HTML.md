@@ -51,13 +51,13 @@ A typical **<head></head>** section can look something like this:
 ```
 So, lets go through the rest of the things we have introduced in this chapter:
 
-#### <!DOCTYPE html>
+### <!DOCTYPE html>
 
 defines the document that you are writing is seen as a modern, HTML5 document. This is opposed to a HTML4 or XHTML document which were previous standards of HTML.
 
 > To read more about HTML5, how it emerged and past standards see here: [linkage]()
 
-#### <html></html>
+### <html></html>
 
 The HTML tag indicates where the HTML document starts and ends. 
 
@@ -65,19 +65,19 @@ The tag is often used in conjunction with what is called an "attribute" which de
 
 {{{{{ IMG HERE EXPLAINING ATTRIBUTE KEY AND VALUE }}}}}
 
-#### <head></head>
+### <head></head>
 
 We've seen the head tag before, as mentioned it provides general information - often called metadata - about the html document, such as its title and links to scripts and stylesheets.
 
-#### <meta>
+### <meta>
 
 This tag, which is one of the cases where you don't have a closing companion tag, indicates values such as which character set to use, which version of Internet Explorer to use if possible, the author of the document and the a brief description of the following content.
 
-THe meta tag is used to represent any information that isn't already explained by the other tags in the head section.
+The meta tag is used to represent any information that isn't already explained by the other tags in the head section.
 
 > For more information about what attributes can be used within the **<meta>** tag, see the [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
-#### <title></title>
+### <title></title>
 
 The title tag is another that we have already covered. The tag provides the title for the entire document and is used to name the tabs on modern browsers like so:
 
@@ -88,7 +88,7 @@ The title tag is another that we have already covered. The tag provides the titl
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 ```
 
-#### <link>
+### <link>
 
 The link tag lets you draw in any additional resources like stylesheets to make things pretty or JavaScript files to add interaction and data manipulation.
 
@@ -98,7 +98,7 @@ With the link tag, and as with many html elements, the real value comes in the a
 <link href="style.css" rel="stylesheet">
 ```
 
-It is worth mentioning the two ways of telling your document where is can find the resource you are telling it to include: absolute and relative linking.
+It is worth mentioning the two ways of telling your document where it can find the resource you are telling it to include: absolute and relative linking.
 
 absolute - This is where you provide the entire link to a resource. A good way of thinking about this is that you provide the full URL, so instead of style.css you put http://www.address.com/styles/main.css If you moved your HTML file to another website address it could still technically find the CSS file
 
