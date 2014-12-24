@@ -77,6 +77,33 @@ THe meta tag is used to represent any information that isn't already explained b
 
 > For more information about what attributes can be used within the **<meta>** tag, see the [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
+#### <title></title>
+
+The title tag is another that we have already covered. The tag provides the title for the entire document and is used to name the tabs on modern browsers like so:
+
+{{{{{{{ IMG HERE }}}}}}}
+
+> If you are wondering how those lovely little icons are provided you use a **link** tag, which we will cover shortly, ensuring you define the image with the attribute of rel= with the value of "icon" like so:
+> ```html
+<link rel="icon" type="image/png" href="http://example.com/myicon.png">
+```
+
+#### <link>
+
+The link tag lets you draw in any additional resources like stylesheets to make things pretty or JavaScript files to add interaction and data manipulation.
+
+With the link tag, and as with many html elements, the real value comes in the attributes. The rel= indicates what type of file is being linked to - in the case below a stylesheet. The href= attribute tells your document where it can find the resource you are linking to.
+
+```html
+<link href="style.css" rel="stylesheet">
+```
+
+It is worth mentioning the two ways of telling your document where is can find the resource you are telling it to include: absolute and relative linking.
+
+absolute - This is where you provide the entire link to a resource. A good way of thinking about this is that you provide the full URL, so instead of style.css you put http://www.address.com/styles/main.css If you moved your HTML file to another website address it could still technically find the CSS file
+
+> Aboslute link is like providing someone who wants to know where your Nan lives here entire address and post code. From whereever that person may be, she should be able to find her. Relative link is where you reply "She lives five doors down". This makes sense, and is extrememly fast and efficient, when someone is outside your door on your street. It doesn't however help when/if they are not in your local area
+
 ## Head
 
 ## Body
