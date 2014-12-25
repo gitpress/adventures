@@ -57,11 +57,30 @@ There are some tags that don't tag team. These tags are the lone wolves of HTML 
 <img src="yourhilariousbabyphoto.jpg">
 ```
 
-So, the **<img>** tag completes itself, it doesn't require a closing **</img>** tag to come with it. If this seems daunting, don't worry. You'll soon get a grip on them.
+So, the **<img>** tag completes itself, it doesn't require a closing **</img>** tag to come with it. If this seems daunting, don't worry. You'll soon get a grip on the select few tags that work this way.
 
 Now you may have noticed something  with that last example. The source or src *attribute* inside the **<img>** tag. This is something that really makes HTML super powered.
 
+## Awesome Attributes
 
+Those additional things inside a HTML tag are called attributes. Attributes allow your HTML tags to call in additional resources to identify themsevles to be transformed by JavaScript. They are very important.
 
+Like the rest of HTML, they are simple additions which take a little time, and trial and error, to get a grips on.
 
+One of the most common attributes is that which you need to add to an **<img>** tag called **src=**. Src stands for source and is where, inside double quote, you indicate where the image is located.
+
+```html
+<img src="imgs/cat-photo.png">
+```
+
+Another common attribute is **href=**. Href indicates where a link should go. A link is actually designated by an anchor tag, as below:
+
+```html
+<a href="http://www.alleyooop.com"> This is the text that appears! Press me!</a>
+
+```
+
+Here the href indicates the website that clicking a link will go to. The text between the **<a></a>** is the "hyperlinked" text; the blue underlined text that when you click it goes to another page you have likely seen plenty of times before
+
+> {{{{ INSERT IMG HERE }}}}
 
