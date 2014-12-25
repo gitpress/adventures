@@ -39,3 +39,29 @@ So, when you write HTML you are building the structure into which information, d
 HTML is the common structure of the web. It is a way of telling browsers how to build something, what to put in certain containers and what containers belong in certain silos.
 
 HTML doesn't do it alone. We have CSS (Cascading Style Sheets) which provides the styling and JavaScript which adds a layer of interactivity and polish to use too. This book won't really directly focus on those two technologies (forthcoming books will though!) but it will give you the ability to start leveraging them soon enough.
+
+## Tag you're it!
+
+HTML marks up your content with tags. The most common form of tag is the opening and closing tag where you indicate the start of a section and then the close with two tags like this:
+
+```html
+<p>This is a set of p for paragraph tags</p>
+```
+And that is pretty much HTML. You'll learn the tags pretty quickly and we'll cover them in the second chapter completely.
+
+> Tag team cartoon here
+
+There are some tags that don't tag team. These tags are the lone wolves of HTML tags and they "self close". The most common of these is the one for images. This dangerous lone wolf looks like:
+
+```html
+<img src="yourhilariousbabyphoto.jpg">
+```
+
+So, the **<img>** tag completes itself, it doesn't require a closing **</img>** tag to come with it. If this seems daunting, don't worry. You'll soon get a grip on them.
+
+Now you may have noticed something  with that last example. The source or src *attribute* inside the **<img>** tag. This is something that really makes HTML super powered.
+
+
+
+
+
