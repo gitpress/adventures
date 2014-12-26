@@ -97,8 +97,21 @@ The link tag lets you draw in any additional resources like stylesheets to make 
 With the link tag, and as with many html elements, the real value comes in the attributes. The rel= indicates what type of file is being linked to - in the case below a stylesheet. The href= attribute tells your document where it can find the resource you are linking to.
 
 ```html
-<!-- Example of a stylesheet being included through the link tag -->
+<!-- Example of a stylesheet being included through the link tag. -->
 <link href="style.css" rel="stylesheet">
+```
+
+This file is located in the same directory or folder of its HTML file. For this example, looking something like:
+
+> image
+
+To link things outside of your folder you must indicate the location of your spreadsheet. 
+
+If you decided to put your spreadsheet in a file called css then your link tag could look like this:
+
+```html
+<!-- Example of a stylesheet being included from a different folder -->
+<link href="css/style.css" rel="stylesheet">
 ```
 
 It is worth mentioning the two ways of telling your document where it can find the resource you are telling it to include: absolute and relative linking.
