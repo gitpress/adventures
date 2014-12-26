@@ -47,7 +47,7 @@ HTML marks up your content with tags. The most common form of tag is the opening
 ```html
 <p>This is a set of p for paragraph tags</p>
 ```
-And that is pretty much HTML. You'll learn the tags pretty quickly and we'll cover them in the second chapter completely.
+The first paragraph tag starts the markup. The last paragraph tag with the forward slash indicates where it ends. And that is pretty much the essence of HTML. You'll learn the tags pretty quickly and we'll cover them in the second chapter completely.
 
 > Tag team cartoon here
 
@@ -57,9 +57,9 @@ There are some tags that don't tag team. These tags are the lone wolves of HTML 
 <img src="yourhilariousbabyphoto.jpg">
 ```
 
-So, the **<img>** tag completes itself, it doesn't require a closing **</img>** tag to come with it. If this seems daunting, don't worry. You'll soon get a grip on the select few tags that work this way.
+So, the **<img>** tag completes itself, it doesn't require a closing **</img>** tag to come with it. If this seems daunting, don't worry. You'll soon get a grip on the select few tags that work this way. You will make mistakes but every developer does, just keep trucking away.
 
-Now you may have noticed something  with that last example. The source or src *attribute* inside the **<img>** tag. This is something that really makes HTML super powered.
+Now you may have noticed something  with that last example. The source or src *attribute* inside the **<img>** tag. This is something that really makes HTML super-powered.
 
 ## Awesome Attributes
 
@@ -70,17 +70,37 @@ Like the rest of HTML, they are simple additions which take a little time, and t
 One of the most common attributes is that which you need to add to an **<img>** tag called **src=**. Src stands for source and is where, inside double quote, you indicate where the image is located.
 
 ```html
-<img src="imgs/cat-photo.png">
+<img src="imgs/cute-cat-photo.png">
 ```
 
 Another common attribute is **href=**. Href indicates where a link should go. A link is actually designated by an anchor tag, as below:
 
 ```html
 <a href="http://www.alleyooop.com"> This is the text that appears! Press me!</a>
-
 ```
 
-Here the href indicates the website that clicking a link will go to. The text between the **<a></a>** is the "hyperlinked" text; the blue underlined text that when you click it goes to another page you have likely seen plenty of times before
+Here the href indicates the website that clicking a link will go to. The text between the **<a></a>** is the "hyperlinked" text; the blue underlined text that when you click it goes to another page you have likely seen plenty of times before:
 
 > {{{{ INSERT IMG HERE }}}}
 
+Attributes also provide additional information about a link or image. A clear example is adding alternative text to an image so that when people hover over it they get a text based explanation. You include it like this:
+
+```html
+<img src="imgs/cute-cat-photo.png" alt="a cute cat pic">
+```
+
+The **alt=** attribute provides you with the ability to add some extra info. This alternative text is also helpful for people with visual problems. 
+
+By providing some alternative text you can at the very least provide some additional context to your image for screen readers.
+
+## A quick recap
+
+Right, so HTML provides structure or markup to a document. This markup indicates to a browser (or other product) that something is a header or a paragraph or even an image or link by the tag it uses.
+
+If you want something to be a paragraph you wrap it with **<p></p>** tags. Most tags work like this.
+
+Some tags don't wrap text. An example of this is the **<img>** tag which is self-contained.
+
+Tags like **<img>** also feature attributes inside them.
+
+These attributes call other resources
