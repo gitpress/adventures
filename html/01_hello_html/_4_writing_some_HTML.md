@@ -116,11 +116,26 @@ If you decided to put your spreadsheet in a file called css then your link tag c
 
 It is worth mentioning the two ways of telling your document where it can find the resource you are telling it to include: absolute and relative linking.
 
-absolute - This is where you provide the entire link to a resource. A good way of thinking about this is that you provide the full URL, so instead of style.css you put http://www.address.com/styles/main.css If you moved your HTML file to another website address it could still technically find the CSS file
+An absolute link is where you provide the entire link to a resource. A good way of thinking about this is that you provide the full URL, so instead of style.css you put http://www.address.com/styles/main.css If you moved your HTML file to another website address it could still technically find the CSS file.
 
-> Aboslute link is like providing someone who wants to know where your Nan lives here entire address and post code. From whereever that person may be, she should be able to find her. Relative link is where you reply "She lives five doors down". This makes sense, and is extrememly fast and efficient, when someone is outside your door on your street. It doesn't however help when/if they are not in your local area
+```html
+<!-- Example of an absolute link -->
+<link href="http://alleyoop.com/public/css/style.css" rel="stylesheet">
+```
 
-## Head
+A relative link is where you provide where the file is, relative to the directory of the HTML file. So, from your base folder your **style.css** is inside a css folder so your link shows:
+
+```html
+<!-- relative link example -->
+<link href="css/style.css" rel="stylesheet">
+```
+
+The benefit of a relative link is that it is often faster and more transferable. If you have been creating some links on one URL but move your project over to another then a relative link should remain the same. However, an absolute link with break.
+
+> It can take a little trial and error to really get this concept down. An absolute link is like providing someone who wants to know where your Nan lives here entire address and post code. From whereever that person may be, she should be able to find her. 
+
+> A Relative link is where you reply "She lives five doors down". This makes sense, and is extrememly fast and efficient, when someone is outside your door on your street. It doesn't however help when/if they are not in your local area
+
 
 ## Body
 
