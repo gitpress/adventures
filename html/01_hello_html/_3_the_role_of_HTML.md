@@ -23,10 +23,12 @@ In a printed book, the headings, the footer, the paragraphs all communicate a st
 
 HTML provides the structure similar to that we find in a book, but on a webpage or app. HTML wraps content (literally!) and the browser communicates the structure to us. 
 
+> The structure of your HTML also helps yourself and other developers. If you are asking someone/yourself to load into your html some articles from a database in the future, you'll need to make sure your markup makes sense to a human as well as a machine.
+
 So, when you write HTML you are building the structure into which information, data, is injected. Your structure is vitally important to the readability and usefulness of your document to a reader. Your HTML is vitally important to ensure your document creates a structure that is consumed in the way you intend it to be consumed.
 
 ```html
-<!-- HTML5 example -->
+<!-- Example of an article tag with a header, paragraph tag and a footer tag inside it to complete a HTML5 example of a blog post -->
 <article>
   <header>A letter in aid of the advancement of Cat Herding 
      - Archibald Whiskers III</header>
@@ -49,7 +51,7 @@ HTML doesn't do it alone. We have CSS (Cascading Style Sheets) which provides th
 HTML marks up your content with tags. The most common form of tag is the opening and closing tag where you indicate the start of a section and then the close with two tags like this:
 
 ```html
-<!-- An example of a paragraph tag -->
+<!-- An example of a paragraph tag with the paragraph text inside -->
 <p>This is a set of p for paragraph tags</p>
 ```
 The first paragraph tag starts the markup. The last paragraph tag with the forward slash indicates where it ends. And that is pretty much the essence of HTML. You'll learn the tags pretty quickly and we'll cover them in the second chapter completely.
@@ -104,9 +106,9 @@ By providing some alternative text you can at the very least provide some additi
 
 ## A quick recap
 
-Right, so HTML provides structure or markup to a document. This markup indicates to a browser (or other product) that something is a header or a paragraph or even an image or link by the tag it uses.
+Right, so HTML provides structure or markup to a document. This markup indicates to a browser (fellow developers or other product) that something is a header or a paragraph or even an image or link by the tag it uses.
 
-If you want something to be a paragraph you wrap it with **<p></p>** tags. Most tags work like this. You find the element you want and you wrap the content you want marking up with that element.
+That is, if you want something to be a paragraph you wrap it with **<p></p>** tags. Most tags work like this. You find the element you want and you wrap the content you want marking up with that element.
 
 Some tags don't wrap text. An example of this is the **<img>** tag which is self-contained. The **<img>** tag only works however when you use the **src=** attribute.
 

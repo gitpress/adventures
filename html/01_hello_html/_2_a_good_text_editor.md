@@ -4,7 +4,13 @@ One of the most important tools for a web developer is a good web browser. I per
 
 A professional developer needs to test their website in as many browsers as possible so having them available is the best situation so, install all you can.
 
-Another key tool is a good text editor. As your HTML basically text, a text editor is essential for any web developer. At the moment there are quite a few choices and ultimately it can come down to personal preferance. Here are a few:
+One of the most important things a modern web browser can do, beyond rendering websites correctly, is provide tools to test and examine your HTML. They look something like this:
+
+> Insert img of browser tools
+
+> To get these tools up on Windows it is the F12 key, for Mac it is.... on 
+
+Another key tool is a good text editor. As your HTML is basically text, a text editor is essential for any web developer. At the moment there are quite a few choices and ultimately it can come down to personal preferance. Here are a few:
 
 ### Text Editors
 
@@ -58,7 +64,7 @@ All three of Vi, Vim or Emacs are developer-focused tools that let you edit text
 
 Of all of the in-browser IDEs, [Codio](https://codio.com/) is probably the most reliable, flexible and easy to use. It is the product I use the most. I am in fact writing this very book using it. The free tier is extremely powerful and they have just redesigned the platform to ensure it is easier to use and easier to set up common platforms.
 
-Peraonlly, If I am not using Sublime Text on my Linux Laptpo, I am normally using Codio.
+Personally, If I am not using Sublime Text on my Linux Laptop, I am normally using Codio.
 
 #### Cloud 9
 
@@ -66,10 +72,10 @@ Like Codio, [Cloud 9][https://c9.io/] is an in-browser development environment w
 
 #### Nitrous
 
-[Nitrous](https://www.nitrous.io/) is another option for in browser development environment. The free tier is limited to one project at a time so it is less flexible that Codio or Cloud 9.
+[Nitrous](https://www.nitrous.io/) is another option for in browser development environment. The free tier is limited to one project at a time so it is less flexible than Codio or Cloud 9.
 
 ### But what should you use?
 
 For HTML I would recommend Sublime Text (it also works well for Windows, Mac and Linux) and the full version can be evaluated for free (an unlimited evaluation of the paid version). The browser-based development environment of [Codio](http://www.codio.com) is also a good bet. I use it for work and have few complaints.
 
-I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will need to learn how to develop on linux or a Unix-type system (that's Mac or Linux to me and you).
+I also recommend using Codio if you are on a windows machine as  it runs a linux machine underneath and unless you are planning on being a windows dev (C# etc), you will eventually need to learn how to develop on linux or a Unix-type system (that's Mac or Linux to me and you).
