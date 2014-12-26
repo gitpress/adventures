@@ -1,4 +1,4 @@
- d# Writing some HTML
+# Writing some HTML
 
 About time? Ok, crack open your text editor of choice 
 
@@ -7,7 +7,7 @@ About time? Ok, crack open your text editor of choice
 In a new file write the following:
 
 ```html
-<!-- hello.html -->
+<!-- path: hello.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,6 +39,7 @@ Everything that goes between the **<head></head>** tags typically doesn't render
 A typical **<head></head>** section can look something like this:
 
 ```html
+<!-- Example of a more complete head section -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +62,7 @@ defines the document that you are writing is seen as a modern, HTML5 document. T
 
 The HTML tag indicates where the HTML document starts and ends. 
 
-The tag is often used in conjunction with what is called an "attribute" which defines the language. In our previous example we defined it as <html lang="en"></html> which is lang= (the attribute) and then within quotes the language you wish to define (the value).
+The tag is often used in conjunction with what is called an "attribute" which defines the language. In our previous example we defined it as **<html lang="en"></html>** which is lang= (the attribute) and then within quotes the language you wish to define (the value).
 
 {{{{{ IMG HERE EXPLAINING ATTRIBUTE KEY AND VALUE }}}}}
 
@@ -85,6 +86,7 @@ The title tag is another that we have already covered. The tag provides the titl
 
 > If you are wondering how those lovely little icons are provided you use a **link** tag, which we will cover shortly, ensuring you define the image with the attribute of rel= with the value of "icon" like so:
 > ```html
+<!-- example of a icon link -->
 <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 ```
 
@@ -95,6 +97,7 @@ The link tag lets you draw in any additional resources like stylesheets to make 
 With the link tag, and as with many html elements, the real value comes in the attributes. The rel= indicates what type of file is being linked to - in the case below a stylesheet. The href= attribute tells your document where it can find the resource you are linking to.
 
 ```html
+<!-- Example of a stylesheet being included through the link tag -->
 <link href="style.css" rel="stylesheet">
 ```
 
