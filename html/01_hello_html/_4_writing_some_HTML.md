@@ -10,13 +10,13 @@ In a new file write the following:
 <!-- path: hello.html -->
 <!DOCTYPE html>
 <html>
-<head>
-<title>Cat Herding 101</title>
-</head>
+  <head>
+    <title>Cat Herding 101</title>
+  </head>
 
-<body>
-<h1>Hello world!</h1>
-</body>
+  <body>
+    <h1>Hello world!</h1>
+  </body>
 </html>
 ```
 
@@ -42,11 +42,11 @@ A typical **<head></head>** section can look something like this:
 <!-- Example of a more complete head section -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My HTML Page</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 </html>
 
 ```
@@ -62,7 +62,7 @@ defines the document that you are writing is seen as a modern, HTML5 document. T
 
 The HTML tag indicates where the HTML document starts and ends. 
 
-The tag is often used in conjunction with what is called an "attribute" which defines the language. In our previous example we defined it as **<html lang="en"></html>** which is lang= (the attribute) and then within quotes the language you wish to define (the value).
+The tag is often used in conjunction with what is called an "attribute" which defines the language. In our previous example we defined it as **<html lang="en"></html>** which is **lang=** (the attribute) and then within quotes the language you wish to define (the value).
 
 {{{{{ IMG HERE EXPLAINING ATTRIBUTE KEY AND VALUE }}}}}
 
@@ -132,10 +132,58 @@ A relative link is where you provide where the file is, relative to the director
 
 The benefit of a relative link is that it is often faster and more transferable. If you have been creating some links on one URL but move your project over to another then a relative link should remain the same. However, an absolute link with break.
 
-> It can take a little trial and error to really get this concept down. An absolute link is like providing someone who wants to know where your Nan lives here entire address and post code. From whereever that person may be, she should be able to find her. 
+> It can take a little trial and error to really get this concept down. An absolute link is like providing someone who wants to know where your Nan lives her entire address and post code. From wherever that person may be, she should be able to find her. 
 
-> A Relative link is where you reply "She lives five doors down". This makes sense, and is extrememly fast and efficient, when someone is outside your door on your street. It doesn't however help when/if they are not in your local area
+> A Relative link is where you reply "She lives five doors down". This makes sense, and is extrememly fast and efficient, when someone is outside your door on your street that is. It doesn't however help if they are not in your local area.
 
+### <body></body>
+
+The body tags wrap the main content of your html document and is where most of the action takes place. Generally speaking you take little notice of this tag but it is vital for your browser to recognize and build a proper representation of your HTML to any visitor.
+
+### <h1></h1>
+
+Within your body section we have a heading tag. Headings range from heading 1 **<h1></h1>** to heading 6 **<h6></h6>**
+
+As expected, your first heading should correspond to **<h1></h1>** and each section with a heading should have a heading that falls below that.
+
+Here is an example of how to use headings:
+
+```html
+<!-- An example of using h1 to head up a document and h2 to show the sections within -->
+<body>
+  <h1>Welcome to my awesome webpage</h1>
+  <p>I have a lot of great moving widgets for you to see.</p>
+  
+  <h2>Blinking Widget</h2>
+  <p>...</p>
+
+  <h2>Flashing Widget</h2>
+  <p> ...</p>
+
+  <h2>Annoying Sound Widget</h2>
+  <p> ...</p>
+</body>
+```
+
+Here my **<h1></h1>** tag shows the visitor my webpage's overriding reason to exist, while my **<h2></h2>** tags head up the sections about my finely crafted widgets.
+
+> Getting headings right is important. Not only do Search Engines like Google use them to understand your document, people often skim them to find the information they want. Correctly choosing headings is therefore vital.
+
+When it comes to headers make sure to use them in as natural a sequence as possible. If you have a sub-header within a **<h2></h2>** section you shouldn't use a **<h1></h1>** tag.
+
+```html
+<!-- An example of the best use of sub-headings within a html doc -->
+<body>
+  <h2>Blinking Widget</h2>
+  <p>...</p>
+  <h3>How to contact me about my widget</h3>
+  <p> ...</p>
+</body>
+```
+
+Here we are using the **<h3></h3>** tag as a sub-header which gives our HTML the right structure and presentation.
+
+> Think of headers within a section being like gears in a car. You should move naturally up from gear 1 to 2, to 3. When you start a new section, start again from a low heading and again move up gradually.
 
 ## Body
 
