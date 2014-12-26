@@ -5,12 +5,15 @@ HTML provides the foundations or structure to websites. It is a "markup" languag
 It looks like this:
 
 ```html
+<!-- An example of a heading and paragraph tag -->
+<h1>My first HTML</h1>
 <p>Hello World!</p>
 ```
 
 HTML is used to communicate to browsers, and related products, how things should be constructed.
 
 ```html
+<!-- A paragraph example with emphasis -->
 <p>Some things <strong>need</strong> extra focus</p>
 ```
 
@@ -23,6 +26,7 @@ HTML provides the structure similar to that we find in a book, but on a webpage 
 So, when you write HTML you are building the structure into which information, data, is injected. Your structure is vitally important to the readability and usefulness of your document to a reader. Your HTML is vitally important to ensure your document creates a structure that is consumed in the way you intend it to be consumed.
 
 ```html
+<!-- HTML5 example -->
 <article>
   <header>A letter in aid of the advancement of Cat Herding 
      - Archibald Whiskers III</header>
@@ -45,6 +49,7 @@ HTML doesn't do it alone. We have CSS (Cascading Style Sheets) which provides th
 HTML marks up your content with tags. The most common form of tag is the opening and closing tag where you indicate the start of a section and then the close with two tags like this:
 
 ```html
+<!-- An example of a paragraph tag -->
 <p>This is a set of p for paragraph tags</p>
 ```
 The first paragraph tag starts the markup. The last paragraph tag with the forward slash indicates where it ends. And that is pretty much the essence of HTML. You'll learn the tags pretty quickly and we'll cover them in the second chapter completely.
@@ -54,6 +59,7 @@ The first paragraph tag starts the markup. The last paragraph tag with the forwa
 There are some tags that don't tag team. These tags are the lone wolves of HTML tags and they "self close". The most common of these is the one for images. This dangerous lone wolf looks like:
 
 ```html
+<!-- An image tag with a source or src attribute -->
 <img src="yourhilariousbabyphoto.jpg">
 ```
 
@@ -70,12 +76,14 @@ Like the rest of HTML, they are simple additions which take a little time, and t
 One of the most common attributes is that which you need to add to an **<img>** tag called **src=**. Src stands for source and is where, inside double quote, you indicate where the image is located.
 
 ```html
+<!-- image with attribute of src -->
 <img src="imgs/cute-cat-photo.png">
 ```
 
 Another common attribute is **href=**. Href indicates where a link should go. A link is actually designated by an anchor tag, as below:
 
 ```html
+<!-- an anchor tag with which links to a website through the href attribute -->
 <a href="http://www.alleyooop.com"> This is the text that appears! Press me!</a>
 ```
 
@@ -86,6 +94,7 @@ Here the href indicates the website that clicking a link will go to. The text be
 Attributes also provide additional information about a link or image. A clear example is adding alternative text to an image so that when people hover over it they get a text based explanation. You include it like this:
 
 ```html
+<!-- An image tag with an alternative text attribute -->
 <img src="imgs/cute-cat-photo.png" alt="a cute cat pic">
 ```
 
@@ -97,10 +106,12 @@ By providing some alternative text you can at the very least provide some additi
 
 Right, so HTML provides structure or markup to a document. This markup indicates to a browser (or other product) that something is a header or a paragraph or even an image or link by the tag it uses.
 
-If you want something to be a paragraph you wrap it with **<p></p>** tags. Most tags work like this.
+If you want something to be a paragraph you wrap it with **<p></p>** tags. Most tags work like this. You find the element you want and you wrap the content you want marking up with that element.
 
-Some tags don't wrap text. An example of this is the **<img>** tag which is self-contained.
+Some tags don't wrap text. An example of this is the **<img>** tag which is self-contained. The **<img>** tag only works however when you use the **src=** attribute.
 
-Tags like **<img>** also feature attributes inside them.
+So, tags can also feature attributes inside them.
 
-These attributes call other resources
+These attributes call other resources, add context and identification.
+
+In order to get a good grip on HTML it is best to dive into writing it and that's what we'll do in the next section.
