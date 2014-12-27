@@ -50,7 +50,7 @@ A typical **<head></head>** section can look something like this:
 </html>
 
 ```
-So, lets go through the rest of the things we have introduced in this chapter:
+Right, lets go through the rest of the things we have introduced in this chapter:
 
 ### <!DOCTYPE html>
 
