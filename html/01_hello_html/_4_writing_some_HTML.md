@@ -16,6 +16,7 @@ In a new file write the following:
 
   <body>
     <h1>Hello world!</h1>
+    <p>I often herd cats</p>
   </body>
 </html>
 ```
@@ -174,8 +175,10 @@ When it comes to headers make sure to use them in as natural a sequence as possi
 ```html
 <!-- An example of the best use of sub-headings within a html doc -->
 <body>
+  <h1>Welcome to my awesome webpage</h1>
+  ...
   <h2>Blinking Widget</h2>
-  <p>...</p>
+  <p> ...</p>
   <h3>How to contact me about my widget</h3>
   <p> ...</p>
 </body>
@@ -183,12 +186,8 @@ When it comes to headers make sure to use them in as natural a sequence as possi
 
 Here we are using the **<h3></h3>** tag as a sub-header which gives our HTML the right structure and presentation.
 
-> Think of headers within a section being like gears in a car. You should move naturally up from gear 1 to 2, to 3. When you start a new section, start again from a low heading and again move up gradually.
+> Think of headers within a section being like gears in a car. You should move naturally up from gear 1 to 2, to 3. When you start a new section, start again from a low heading and again move up gradually. 
 
-## Body
+### <p></p>
 
-## Charset & Meta
-
-## Typography
-
-## Paragraphs
+We covered this paragraph tag in the last section very lightly. The **<p></p>** tag designates something as a paragraph. A collection of text grouped by thematic/grammatical reasons.
