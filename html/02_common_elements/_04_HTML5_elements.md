@@ -9,7 +9,9 @@ In order to get a sense of the old vs the new here are two examples of pre and p
 ```html
 <!-- pre-HTML5 page -->
 <body>
-  <div id="nav"> | <a href="#"> Home </a> | </div>
+  <div id="nav"> 
+    | <a href="#"> Home </a> | 
+  </div>
   
   <div id="article">
     <div id="article-header">
@@ -22,13 +24,18 @@ In order to get a sense of the old vs the new here are two examples of pre and p
 </body>
 ```
 
+
 ```html
 <!-- example of a HTML5 page -->
 <body>
-  <nav> | <a href="#"> Home </a> | </nav>
+  <nav> 
+    | <a href="#"> Home </a> | 
+  </nav>
   
   <article>
-    <header><h1>Hello HTML5</h1></header>
+    <header>
+      <h1>Hello HTML5</h1>
+    </header>
     <p>What a great experience</p>
   </article>
   
