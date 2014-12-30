@@ -43,6 +43,8 @@ In order to get a sense of the old vs the new here are two examples of pre and p
 </body>
 ```
 
+As you can see, the idea behind the new elements is to provide HTML elements out of the box that cover common things many webpages have.
+
 > The **<div></div>** tag is a way of creating an editable and styleable area. To find out more about this see [section 12 - CSS](#)
 
 ## Nav
