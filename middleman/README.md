@@ -1,6 +1,8 @@
 # Mastering Middleman
 
-In this book we will learn how to build developer and client friendly websites using the powerful Ruby app Middleman. Middleman is a "static site" tool. It offers tools and a workflow to help you build the elements needed to create complex static sites with the added bonus of Ruby tools and templating.
+In this book we will learn how to build developer and client friendly websites using the powerful Ruby app Middleman. Middleman is a "static site generator". This static site generator offers tools and a workflow to help you build the elements needed to create complex static sites (HTML, CSS etc.) with the added bonus of Ruby tools and templating.
+
+Although you build your site with Middleman and Ruby, the output is a pure HTML, CSS and JS site that can run very fast on simple, affordable hosting.
 
 This book will show you how to build sites with Middleman that are as good, if not better, than WordPress and Rails.
 
