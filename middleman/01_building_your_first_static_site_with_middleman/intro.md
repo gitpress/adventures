@@ -7,6 +7,6 @@ In this chapter we will cover:
 * Installing Middleman
 * Configuring Middleman
 * Creating a Bootstrap layout 
-*
-*
-*
+* Templating with ERB
+* Building a simple blog
+* Pushing your static site to a web server
