@@ -2,7 +2,7 @@
 
 To get Middleman working we need to download the gem. First create a file which we can work in for the rest of the book: 
 
-```shell
+```sh
 # CLI command to create a file and move into the directory
 $ mkdir middleman && cd middleman
 ```
@@ -13,7 +13,7 @@ $ mkdir middleman && cd middleman
 
 Now download the Middleman gem:
 
-```shell
+```sh
 # download the middleman gem
 $ gem install middleman
 ```
