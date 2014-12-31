@@ -93,22 +93,12 @@ Inside you will see futher folders for images, javascripts, layouts and styleshe
 
 you will also see an ebedded ruby HTML page that, on using the Middleman build command, will get wrapped into its layout.
 
- 
-
 You will also see some YAML at the top of the page which provides useful information to a template, like the title page etc.
 
- 
-
 ```yaml
-
 ---
-
 title: Welcome to Middleman
-
 ---
-
 ```
-
- 
 
 Lets see that work.
