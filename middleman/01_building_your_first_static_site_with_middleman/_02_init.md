@@ -22,7 +22,7 @@ Let's move into the newly created folder to get building. For me I run:
 cd mimp
 ```
 
-You should now see four files and a source folder. Your directory looks something like this:
+You should now see four files and a folder called source. Your directory looks something like this:
 
 * /source
 * .gitignore
@@ -68,9 +68,9 @@ This directory is where you will write your HTML, CSS and JS.
 
 Inside you will see futher folders for images, javascripts, layouts and stylesheets which are all pretty self explanatory
 
- 
-
 > Explanation anyway. Example of layout included:
+
+you will also see an ebedded ruby HTML page that, on using the Middleman build command, will get wrapped into its layout.
 
 ```erb
 <!doctype html>
@@ -91,8 +91,6 @@ Inside you will see futher folders for images, javascripts, layouts and styleshe
 </html>
 ```
 
-you will also see an ebedded ruby HTML page that, on using the Middleman build command, will get wrapped into its layout.
-
 You will also see some YAML at the top of the page which provides useful information to a template, like the title page etc.
 
 ```yaml
@@ -101,4 +99,4 @@ title: Welcome to Middleman
 ---
 ```
 
-Lets see that work.
+Lets see that work by building the static site from the Middleman source
