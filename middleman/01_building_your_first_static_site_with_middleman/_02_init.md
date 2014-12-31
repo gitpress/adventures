@@ -72,43 +72,23 @@ Inside you will see futher folders for images, javascripts, layouts and styleshe
 
 > Explanation anyway. Example of layout included:
 
-```Erb
+```erb
 <!doctype html>
-
 <html>
-
   <head>
-
     <meta charset="utf-8">
-
-   
-
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
-
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-
-   
-
     <!-- Use title if it's in the page YAML frontmatter -->
-
     <title><%= current_page.data.title || "The Middleman" %></title>
-
-   
-
     <%= stylesheet_link_tag "normalize", "all" %>
-
     <%= javascript_include_tag  "all" %>
-
   </head>
   
   <body class="<%= page_classes %>">
-
     <%= yield %>
-
   </body>
-
 </html>
-
 ```
 
 you will also see an ebedded ruby HTML page that, on using the Middleman build command, will get wrapped into its layout.
