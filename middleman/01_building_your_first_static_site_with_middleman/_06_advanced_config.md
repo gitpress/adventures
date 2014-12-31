@@ -1,0 +1,1 @@
+In this section we will add some further configuration to make sure our site is as lean as possible for deployment to a production web server but also improve our development workflow.

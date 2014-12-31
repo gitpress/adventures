@@ -1,0 +1,1 @@
+In this section we are going to add bootstrap to our project and scaffold our basic site layout

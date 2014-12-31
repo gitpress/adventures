@@ -1,0 +1,1 @@
+In this section we will add our blog functionality
