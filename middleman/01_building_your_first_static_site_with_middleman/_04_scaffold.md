@@ -26,6 +26,18 @@ We don't currently have anything in those folders so let's get to the Bootswatch
 
 On the [paper page](http://bootswatch.com/paper/) go to the download drop down and locate the two .scss file names. Press on each. They should download the .scss files locally. Either open them and copy the .scss into your newly created files or replace the files in your ```~/source/stylesheets/``` folder.
 
+Let's update our ```main.scss``` file to include those two new files. To do this we need to include an ```@import``` command. 
+```@import``` as you guessed, imports other files. We follow the import statement with the file we want to import inside some double quotes. Just like plain old CSS we end the line with a semi-colon. So, in our ```main.scss``` file, write the following:
+
+```scss
+@import "_variables.scss";
+@import "_bootswatch.scss";
+```
+
+Now, we haven't done a lot but we have just included a lot of powerful SCSS into our project.
+
+Before we crack open the champagne, we need to include the Bootstrap js and jquery.
+
 ## Delete the default styles
 
 ## create a master .scss file
