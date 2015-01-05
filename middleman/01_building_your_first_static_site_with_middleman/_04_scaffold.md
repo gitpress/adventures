@@ -34,9 +34,67 @@ Let's update our ```main.scss``` file to include those two new files. To do this
 @import "_bootswatch.scss";
 ```
 
+We also need to update our references to the layout file.
+
+Navigate to ```~/source/layouts/layout.erb```. Edit the stylesheet_link_tag attribute to the following:
+
+```erb
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Middleman" %></title>
+    
+    <%= stylesheet_link_tag "main" %>
+    <%= javascript_include_tag  "all" %>
+  </head>
+  
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>
+```
+This connects the ERB stylesheet tag helper to the file called main.scss and makes sure it is included on every html page.
+
 Now, we haven't done a lot but we have just included a lot of powerful SCSS into our project.
 
 Before we crack open the champagne, we need to include the Bootstrap js and jquery.
+
+#### Include jQuery and Bootstrap.js
+
+First navigate to [Bootstrap's website](http://getbootstrap.com/) and download the compiled assets.
+
+> INSERT IMAGE bootstrap_download.png
+
+In that download find the ```bootstrap.js``` file which is normally located in the ```~/bootstrap-x.x.x-dist/dist/js/``` folder. Copy it and include it into your Middleman project's javascripts folder.
+
+Your ```javascripts``` folder should now look like:
+
+* all.js
+* bootstrap.js
+
+The next thing to do is include jQuery. Go to the [jQuery website](http://jquery.com/download/) and download the latest 1.11.x version of jQuery. 
+
+> jQuery support versions
+
+Move that file into your ```javascripts``` directory as you did the bootstrap file.
+
+> INSERT IMAGE download_jquery.png
+
+Rename your ```jquery-1-11-2.js``` file to a cleaner named ```jquery.js``` .
+
+Your ```javascripts``` folder should now look like:
+
+* all.js
+* bootstrap.js
+* jquery.js
+
+### Make sure the order is correct!
 
 ## Delete the default styles
 
