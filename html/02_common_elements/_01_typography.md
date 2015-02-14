@@ -24,6 +24,17 @@ This very book shows this in action.
 
 The name of the chapter or section starts with a ```<h1></h1>``` element, in this case **HTML Typography**, with each preceeding section using a ```<h2></h2>``` element to indicate the important sub-sections.
 
+```html
+<h1>Heading one</h1>
+<h2>Heading two</h2>
+<h3>Heading three</h3>
+<h4>Heading four</h4>
+<h5>Heading five</h5>
+<h6>Heading six</h6>
+```
+
+> Include screenshot of elements in action
+
 ## Paragraph
 
 ## Bold
