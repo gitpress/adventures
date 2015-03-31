@@ -20,6 +20,12 @@ One of the most common elements you'll use is a heading or header. These are ind
 
 To indicate something is the top heading in a page we wrap our text with ```<h1></h1>```. And to indicate a header of the lowest importance we use ```<h6></h6>```.
 
+> HTML is what we call a **"case insensitive"** markup language. In plain English this means that it doesn't matter if you capitalize your tags or not. The browser just doesn't care. This is in contrast with nearly everything else you'll use to build products for the web. CSS, JavaScript, Ruby etc. all take capitalization very seriously.
+>
+> In HTML, H1 and h1 are the same thing. 
+>
+> In JavaScript, CamelCase and camelcase are not and you would experience errors if you expected them to refer to the same large African creature.
+
 You should generally treat headings as gears in your car. You start with the first, move to second and then third. Whenever you start moving, you start low and progress up. So, if you need to start a new section you start and move up.
 
 There is a slight caveat here. It is best to only use one ```<h1></h1>``` per page.
@@ -31,6 +37,8 @@ So, taking screenreaders into account it is best to reserve your ```<h1>First He
 This very book shows this in action. 
 
 The name of the chapter or section starts with a ```<h1></h1>``` element, in this case **HTML Typography**, with each preceeding section using a ```<h2></h2>``` element to indicate the important sub-sections.
+
+The available headings are therefore:
 
 ```html
 <h1>Heading one</h1>
@@ -70,7 +78,7 @@ The reasons are that If you are making something bold because it is a title, say
 
 The other reason is that in HTML5 it doesn't convey any "semantic" meaning. Unlike the "emphasis" tag that we'll see later, it doesn't convey our desire to emphasize something and just looking at a word within a <b></b> tag we wouldn't instantly know why it is being emphasised.
 
-The tag also just describes what we want a word to look like, and in modern HTML that job has been left to CSS, rather than a tag name.
+The tag also just describes what we want a word to look like, and in modern HTML that job has been left to CSS, rather than a tag name. If we have ```<b></b>``` for bold why not ```<really-really-quite-massive-title-that-is-blue>How the English emphasise</really-really-quite-massive-title-that-is-blue>```
 
 Let's say you do however want to emphasise a word within a paragraph that should be said strongly.
 
@@ -82,6 +90,7 @@ We can achieve this with the ```<strong></strong>``` tag. This tag wraps any wor
 
 > image here
 
+Here, unlike bold, we are communicating how the word should be communicated. This way has the added benefit of making sense to screen readers. That is, to the technology that communicates to people who cannot see. The use of the ```<strong>``` tag communicates the semantic meaning behind the word being emphasised.
 
 ## Italics & Emphasis
 
