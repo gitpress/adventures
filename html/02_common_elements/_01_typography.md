@@ -94,6 +94,10 @@ Here, unlike bold, we are communicating how the word should be communicated. Thi
 
 ## Italics & Emphasis
 
+Another way we can emphasise text is through italics.
+
+We do this by wrapping a word with ```<i></i>```.
+
 ## Underline
 
 ## Sup & Sub
