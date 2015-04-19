@@ -22,6 +22,7 @@ We will cover:
 Beyond Active Admin you'll learn how to:
 
 * Create an attractive website frontend with Sass and Bootstrap
+* How to create Rails models with belongs_to and has_many relationships
 * Create a search form with Sphinx
 * Build Rails models and a MySQL backed website
 * Test and Deploy your site to AWS or Heroku
