@@ -68,7 +68,7 @@ Personally, If I am not using Sublime Text on my Linux Laptop, I am normally usi
 
 #### Cloud 9
 
-Like Codio, [Cloud 9([https://c9.io/) is an in-browser development environment with a good free tier. As with Codio, there is some additional or alternative steps you'll have to jump over to get databases etc. installed. However, when it comes to HTML there is nothing extra to do.
+Like Codio, [Cloud 9](https://c9.io/) is an in-browser development environment with a good free tier. As with Codio, there is some additional or alternative steps you'll have to jump over to get databases etc. installed. However, when it comes to HTML there is nothing extra to do.
 
 #### Nitrous
 
