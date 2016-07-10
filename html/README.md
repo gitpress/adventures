@@ -1,6 +1,6 @@
 # Learning HTML
 
-Getting to grips with HTML is essential for any web developer. At first glace it can be a little overwhelming but once you understand the core of HTML it is pretty easy. This book will quickly take you through the essentials of HTML and equip you with everything you'll need to build the structure of a webpage
+Getting to grips with HTML is essential for anyone who wants to build things for the web, never mind become a web developer. At first glance it can be a little overwhelming but once you understand the core of HTML you will find writing it pretty easy. This book will quickly take you through the essentials of HTML and equip you with everything you'll need to build the structure of a webpage
 
 In this book we will cover:
 
@@ -14,6 +14,5 @@ In this book we will cover:
 * including stylesheets, fonts and javascript
 * Including external content like Twitter feeds, Facebook posts
 * Using a responsive grid
-* Using Bootstrap
+* Using external CSS frameworks (Bootstrap)
 * HTML emails
-
