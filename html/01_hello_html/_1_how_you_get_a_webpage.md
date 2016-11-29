@@ -15,6 +15,12 @@ No magic. No extra process.
 
 Your browser should now be the default program to open said HTML file (Unless you use something like Linux, where it may be a text editor)
 
+> #### File not opening as a HTML file?
+>
+> Sometimes when you save a file as .html the text editor adds a .txt at the end. If you see a file called something like goodtry.html.txt it won't work as a HTML page because of the trailing .txt bit at the end.
+>
+> Delete that, and you should see your HTML page
+
 ### So HTML or HTM?
 
 Now you may come across a file or two ending with .htm
